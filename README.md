@@ -9,7 +9,7 @@ hpix  = source_id / (235×4(12−n)) = source_id / 2**(59−2n)
 
 # Usage 
 in order to make a loop over the all sky you should go over the hpix one by one:
-in this seudocode example you will get with HpixLevel=5  12288 spllits, replresenting an individual healpix tiles.
+in this pseudocode example you will get with HpixLevel=5  12288 splits, representing the whole sky.
 ```
 HpixLevel=5
 NPIX = 12*4**HpixLevel
